@@ -1,88 +1,112 @@
 /* Estilos para o corpo da página */
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Estilos para a navegação */
-  nav {
-    background-color: #333;
-    color: #fff;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    padding: 10px 20px;
-    position: fixed;
-  }
-  .IMG-top{
-    width: 50px;
-  }
-.back {
-    width: 40%;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
 }
-  
-  nav a {
-    color: #fff;
-    text-decoration: none;
-    margin-right: 10px;
-    
-  }
-  
-  /* Estilos para o cabeçalho */
-  .container-cabeçalho {
-    background-image: url(Imagens/BackGroud\ Inicio.png);
-    background-size: cover;
-    color: #fff;
-    text-align: left;
-    padding: 100px 0;
-  }
-  
-  .container-cabeçalho h2 {
-    font-size: 2em;
-  }
-  
-  .container-cabeçalho p {
-    font-size: 1.2em;
-    /*max-width: 600px;*/
-    margin: 0 auto;
-  }
-  
-  /* Estilos para outras seções (sobre, serviços, portfólio, contatos) */
-  .container-sobre, .container-servicos, .container-portifolio, .container-contatos {
-    padding: 50px 0;
+
+/* Estilos para a navegação */
+
+
+.container-topo {
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  top: 3px;
+  width: 100%;
+  background-color: #007BFF;
+  padding: 1px;
+
+}
+
+nav {
+  background-color: #007BFF;
  
-  }
-  
-  /* Estilos para as imagens dos projetos no portfólio */
-  
-  .projeto-a1 img{
-    max-width: 20%;
-    border: 2px solid #333;
+  padding: 5px 1px;
+  display: flex;
+  align-items: center;
 
-  }
-  .projeto-a2 img{
-    max-width: 20%;
-    border: 2px solid #333;
-    position: relative;
-    left: 79%;
-  }
-  .projeto-a3 img{
-    max-width: 20%;
-    border: 2px solid #333;
-  }
-  .projeto-a1 p, .projeto-a3 p{
-    position: relative;
-    left: 90%;
-  }
-  /* Estilos para links */
-  a {
-    color: #007BFF;
-    text-decoration: none;
+}
 
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
+.IMG-top {
+  width: 80px;
+}
+
+.back {
+  width: 40%;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+
+}
+
+/* Estilos para o cabeçalho */
+.container-cabeçalho {
+  background-image: url(Imagens/BackGroud\ Inicio.png);
+  background-size: cover;
+  color: #fff;
+  text-align: left;
+  padding: 100px 0;
+}
+
+.container-cabeçalho h2 {
+  font-size: 2em;
+}
+
+.container-cabeçalho p {
+  font-size: 1.2em;
+  /*max-width: 600px;*/
+  margin: 0 auto;
+}
+
+/* Estilos para outras seções (sobre, serviços, portfólio, contatos) */
+.container-sobre,
+.container-servicos,
+.container-portifolio,
+.container-contatos {
+  padding: 50px 0;
+
+}
+
+/* Estilos para as imagens dos projetos no portfólio */
+
+.projeto-a1 img {
+  max-width: 20%;
+  border: 2px solid #333;
+
+}
+
+.projeto-a2 img {
+  max-width: 20%;
+  border: 2px solid #333;
+  position: relative;
+  left: 79%;
+}
+
+.projeto-a3 img {
+  max-width: 20%;
+  border: 2px solid #333;
+}
+
+.projeto-a1 p,
+.projeto-a3 p {
+  position: relative;
+  left: 90%;
+}
+
+/* Estilos para links */
+a {
+  color: #007BFF;
+  text-decoration: none;
+
+}
+
+a:hover {
+  text-decoration: underline;
+}
